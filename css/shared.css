@@ -8,14 +8,15 @@ body {
 h1 {
     color: #66bfbf;
     font-family: 'Sacramento', cursive;
-    font-size: 6rem;
-    margin: 3rem auto 0;
+    font-size: 3rem;
+    margin: 0 auto;
 }
 
 h2 {
     color: #66bfbf;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-top: 0;
     padding-bottom: 0.8rem;
 }
 
@@ -69,6 +70,11 @@ hr {
     font-weight: normal;
 }
 
+.top-container__mountain {
+    max-width: 630px;
+    width: 100%;
+}
+
 .pro {
     text-decoration: underline;
 }
@@ -91,13 +97,13 @@ hr {
 
 .profile p {
     margin: auto;
-    width: 30%;
+    width: 80%;
 }
 
 .skill-row {
     margin: 6rem auto 6rem;
     text-align: left;
-    width: 50%;
+    width: 80%;
 }
 
 .middle-container img {
@@ -126,7 +132,7 @@ hr {
 
 .contact-message {
     margin: 2.2rem auto 2.5rem;
-    width: 40%;
+    width: 80%;
 }
 
 .btn {
@@ -153,4 +159,27 @@ hr {
     background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
     background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
     background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
+
+@media (min-width: 450px) {
+    h1 {
+        font-size: 6rem;
+        margin: 3rem auto 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile p {
+        width: 30%;
+    }
+
+    .skill-row {
+        width: 50%;
+    }
+
+    .contact-message {
+        width: 40%;
+    }
 }
