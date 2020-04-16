@@ -46,6 +46,19 @@ hr {
     width: 9%;
 }
 
+.main-nav ul {
+    background: #e4f9f5;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
 .top-container {
     background: #e4f9f5;
     padding-top: 6.5rem;

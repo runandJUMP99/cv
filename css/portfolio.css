@@ -1,0 +1,49 @@
+.portfolio-intro {
+    background: #fffd7a;
+    height: 10rem;
+}
+
+.works {
+    background: #000091;
+    color: white;
+    padding-top: 2rem;
+}
+
+.works h2 {
+    background: white;
+    border-radius: 8px;
+    margin: 0 5rem;
+    padding: 0.5rem;
+}
+
+.work-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.left {
+    background: white;
+    color: #000091;
+    flex-direction: row-reverse;
+}
+
+.left h3,
+.left p {
+    text-align: right;
+}
+
+.work-row__text {
+    text-align: left;
+    width: 40%;
+}
+
+.work-row__img {
+    font-size: 0.7rem;
+    width: 40%;
+}
+
+.work-row__img p {
+    text-align: center;
+}
