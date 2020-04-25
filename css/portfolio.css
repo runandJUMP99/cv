@@ -1,17 +1,59 @@
+#just4yourpets {
+    background: #42dee1;
+}
+
+#depoppler {
+    background: #f7f6f6;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#wickid-sense {
+    background: #216353;
+}
+
+.main-nav ul {
+    background: #001244;
+}
+
+.main-nav a {
+    color: white;
+}
+
+.main-nav a:hover {
+    color: #11999e;
+}
+
 .portfolio-intro {
-    background: #fffd7a;
-    height: 10rem;
+    background: #001244;
+    color: #ccc;
+    padding: 5rem;
+}
+
+.portfolio-intro h1 {
+    font-size: 3rem;
+}
+
+.portfolio-intro div {
+    background: #001244;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.portfolio-intro a {
+    margin-top: 2rem;
 }
 
 .works {
-    background: #000091;
     color: white;
 }
 
 .work-row {
     align-items: center;
     max-width: 1500px;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .work-row__text {
@@ -23,11 +65,6 @@
     margin-top: 0;
 }
 
-.left {
-    background: white;
-    color: #000091;
-    flex-direction: row-reverse;
-}
 .work-row__img {
     font-size: 0.7rem;
 }
@@ -44,22 +81,14 @@
 
 .website-img:hover {
     transform: scale(1.02);
-    transition: transform 1000ms ease-out;
+    transition: all 1000ms ease-out;
 }
 
-.blue {
-    box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.5);
-}
-
-.blue:hover {
-    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.5);
-}
-
-.white {
+.website-img {
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-.white:hover {
+.website-img:hover {
     box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -67,7 +96,15 @@
     text-align: center;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 700px) {
+    #depoppler {
+        flex-direction: row-reverse;
+    }
+    
+    #depoppler .work-row__text {
+        text-align: right;
+    }
+
     .work-row {
         display: flex;
         justify-content: space-between;
