@@ -80,12 +80,14 @@ hr {
 }
 
 .top-cloud {
+    max-width: 150px;
     position: absolute;
     right: 20%;
     top: 7%;
 }
 
 .bottom-cloud {
+    max-width: 150px;
     position: absolute;
     left: 15%;
     bottom: 40%;
@@ -181,5 +183,13 @@ hr {
 
     .contact-message {
         width: 40%;
+    }
+
+    .top-cloud {
+        max-width: 300px;
+    }
+    
+    .bottom-cloud {
+        max-width: 200px;
     }
 }
