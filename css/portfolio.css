@@ -73,22 +73,15 @@
 }
 
 .website-img {
-    border: 1px solid #eee;
     border-radius: 50%;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
 .website-img:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
     transform: scale(1.02);
     transition: all 1000ms ease-out;
-}
-
-.website-img {
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
-}
-
-.website-img:hover {
-    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
 }
 
 .work-row__img p {
