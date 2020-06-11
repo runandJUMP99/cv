@@ -1,20 +1,26 @@
+.background {
+    display: none;
+}
+
 #just4yourpets {
     background: #42dee1;
+    padding: 4rem 2.5rem;
 }
 
 #depoppler {
-    background: #f7f6f6;
-    color: black;
+    background: #fce2db;
     display: flex;
     flex-direction: column;
+    padding: 4rem 2.5rem;
 }
 
 #wickid-sense {
     background: #216353;
+    padding: 4rem 2.5rem;
 }
 
 .main-nav ul {
-    background: #001244;
+    background:#001244;;
 }
 
 .main-nav a {
@@ -29,6 +35,7 @@
     background: #001244;
     color: #ccc;
     padding: 5rem;
+    position: relative;
 }
 
 .portfolio-intro h1 {
@@ -36,7 +43,6 @@
 }
 
 .portfolio-intro div {
-    background: #001244;
     display: flex;
     justify-content: space-around;
     margin-top: 5rem;
@@ -47,12 +53,16 @@
 }
 
 .works {
-    color: white;
+    color: black;
 }
 
 .work-row {
     align-items: center;
-    padding: 5rem;
+    background: #f1f1e3;
+    border-radius: 16px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.5);
+    max-width: 1300px;
+    padding: 1rem;
 }
 
 .work-row__text {
@@ -66,6 +76,7 @@
 
 .work-row__img {
     font-size: 0.7rem;
+    padding: 2rem;
 }
 
 .work-row__img a {
@@ -74,34 +85,66 @@
 
 .website-img {
     border-radius: 50%;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
 .website-img:hover {
     box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
     transform: scale(1.02);
-    transition: all 1000ms ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .work-row__img p {
     text-align: center;
 }
 
+.bottom-container {
+    background: #216353;
+}
+
 @media (min-width: 700px) {
-    #depoppler {
-        flex-direction: row-reverse;
+    .background {
+        display: grid;
+        grid-template-rows: 55rem 45rem 45rem;
+        height: 100vh;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .background__top {
+        background-image: -webkit-linear-gradient(-75deg, #001244 65%, #42dee1 20%);
+    }
+    
+    .background__middle {
+        background-image: -webkit-linear-gradient(60deg, #fce2db 50%, #42dee1 40%);
+    }
+    
+    .background__bottom {
+        background-image: -webkit-linear-gradient(-65deg, #fce2db 40%, #216353 20%);
+    }
+
+    .portfolio-intro,
+    #just4yourpets,
+    #depoppler,
+    #wickid-sense {
+        background: none;
     }
     
     #depoppler .work-row__text {
         text-align: right;
     }
-
+    
     .work-row {
         display: flex;
+        height: 25rem;
         justify-content: space-between;
+        margin: auto;
     }
-
+    
     .work-row__text {
         text-align: left;
         width: 40%;
@@ -110,8 +153,18 @@
     .work-row__img {
         width: 40%;
     }
-
+    
     .work-row__img {
-        padding: 2rem 0;
+        padding: 2rem;
+    }
+    
+    .reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 350px) {
+    .portfolio-intro a {
+        margin: 1rem 0.5rem;
     }
 }
