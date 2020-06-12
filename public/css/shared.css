@@ -80,17 +80,17 @@ hr {
 }
 
 .top-cloud {
-    max-width: 150px;
+    max-width: 100px;
     position: absolute;
     right: 20%;
     top: 7%;
 }
 
 .bottom-cloud {
-    max-width: 150px;
+    left: 5%;
+    max-width: 100px;
     position: absolute;
-    left: 15%;
-    bottom: 40%;
+    top: 45%;
 }
 
 .middle-container {
@@ -163,7 +163,7 @@ hr {
     background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
 }
 
-@media (min-width: 450px) {
+@media (min-width: 550px) {
     h1 {
         font-size: 6rem;
         margin: 3rem auto 0;
@@ -186,10 +186,12 @@ hr {
     }
 
     .top-cloud {
-        max-width: 300px;
+        max-width: 150px;
+        top: 15%;
     }
     
     .bottom-cloud {
-        max-width: 200px;
+        left: 12%;
+        max-width: 150px;
     }
 }
