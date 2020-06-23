@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hello</title>
-    <link rel="stylesheet" href="css/shared.css">
-    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
+    <nav class="main-nav__fixed main-nav__fixed__portfolio">
+        <ul>
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="/portfolio.html">portfolio</a>
+          </li>
+        </ul>
+    </nav>
     <nav class="main-nav">
         <ul>
             <li>
@@ -81,12 +92,17 @@
         </div>
     </div>
 
-        <div class="bottom-container">
-            <a class="footer-link" href="/index.html">home</a>
-            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/runandJUMP">dribbble</a>
-            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://github.com/stevendvelez">github</a>
-            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/steven-velez-32210b1b1">linkedin</a>
-            <p>© <script>document.write(new Date().getFullYear())</script> runandJUMP</p>
-          </div>
+    <div class="bottom-container">
+        <div class="footer-links">
+            <a class="footer-link" href="/index.html"><i class="fa fa-home"></i>home</a>
+            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/runandJUMP"><i class="fa fa-dribbble"></i>dribbble</a>
+            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://github.com/stevendvelez"><i class="fa fa-github"></i>github</a>
+            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/steven-velez-32210b1b1"><i class="fa fa-linkedin"></i>linkedin</a>
+            <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/runandJUMP99"><i class="fa fa-twitter"></i>twitter</a>
+        </div>
+        <p>© <script>document.write(new Date().getFullYear())</script> runandJUMP</p>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>

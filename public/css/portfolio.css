@@ -19,15 +19,18 @@
     padding: 4rem 2.5rem;
 }
 
-.main-nav ul {
-    background:#001244;;
+.main-nav ul,
+.main-nav__fixed__portfolio ul {
+    background:#001244;
 }
 
-.main-nav a {
+.main-nav a,
+.main-nav__fixed__portfolio a {
     color: white;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav__fixed__portfolio a:hover {
     color: #11999e;
 }
 

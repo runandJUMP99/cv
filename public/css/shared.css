@@ -47,7 +47,12 @@ hr {
     width: 9%;
 }
 
-.main-nav ul {
+i {
+    margin-right: 0.5rem;
+}
+
+.main-nav ul,
+.main-nav__fixed ul {
     background: #e4f9f5;
     display: flex;
     justify-content: space-around;
@@ -56,8 +61,22 @@ hr {
     padding: 1rem;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav__fixed a:hover {
     color: black;
+}
+
+.main-nav__fixed {
+    box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    transform: translateY(-4rem);
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    z-index: 10;
+}
+
+.main-nav__fixed__show {
+    transform: translateY(0);
 }
 
 .top-container {
@@ -168,6 +187,13 @@ hr {
     background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
     background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
     background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
+
+.footer-links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media (min-width: 550px) {
