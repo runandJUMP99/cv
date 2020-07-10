@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello</title>
+    <title>runandJUMP</title>
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,70 +11,114 @@
     <link rel="stylesheet" href="css/shared.css">
 </head>
 <body>
-    <nav class="main-nav__fixed">
-      <ul>
+    <div class="backdrop"></div>
+    <nav class="sidedrawer">
+      <div class="main-nav__logo">
+        <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/THEkoala.svg?alt=media&token=9c24457a-43e7-4ceb-8fbb-d9a64c04fd98" alt="Koala"></a>
+      </div>
+      <ul class="main-nav__links">
         <li>
-          <a href="/">home</a>
+          <a href="/">About Me</a>
         </li>
         <li>
-          <a href="/portfolio.html">portfolio</a>
+          <a href="/portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="main-nav__fixed">
+      <div class="main-nav__logo">
+        <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/THEkoala.svg?alt=media&token=9c24457a-43e7-4ceb-8fbb-d9a64c04fd98" alt="Koala"></a>
+      </div>
+      <div class="toggle-button__container">
+        <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+        </button>
+      </div>
+      <ul class="main-nav__links">
+        <li>
+          <a href="/">About Me</a>
+        </li>
+        <li>
+          <a href="/portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
         </li>
       </ul>
     </nav>
     <nav class="main-nav">
-      <ul>
+      <div class="main-nav__logo">
+        <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/THEkoala.svg?alt=media&token=9c24457a-43e7-4ceb-8fbb-d9a64c04fd98" alt="Koala"></a>
+      </div>
+      <div class="toggle-button__container">
+        <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+        </button>
+      </div>
+      <ul class="main-nav__links">
         <li>
-          <a href="/">home</a>
+          <a href="#aboutme">About Me</a>
         </li>
         <li>
-          <a href="/portfolio.html">portfolio</a>
+          <a href="/portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
         </li>
       </ul>
     </nav>
     <div class="top-container">
-        <img class="top-cloud" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/normCloud.svg?alt=media&token=29f4743e-76c4-445e-a8ef-9ed5e7240ac8" alt="cloud-img">
         <h1>i'm steven</h1>
         <h2>a <span class="pro">pro</span>grammer</h2> 
-        <img class="bottom-cloud" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/normCloud.svg?alt=media&token=29f4743e-76c4-445e-a8ef-9ed5e7240ac8" alt="cloud-img">
-        <img class="top-container__mountain" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/sleepyMountains.svg?alt=media&token=f4bde67b-f9c4-4365-bbdb-cb24b8dbdec4" alt="mushroom-mountain" alt="mushroom-mountain">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/PortfolioIntro.svg?alt=media&token=ae647728-0f96-4adc-b2b2-8aa88179406d" alt="mushroom-mountain" alt="mushroom-mountain">
     </div>
     
-    <div class="middle-container">
+    <div id="aboutme" class="middle-container">
     <div class="profile">
       <img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/THEkoala.svg?alt=media&token=9c24457a-43e7-4ceb-8fbb-d9a64c04fd98" alt="koalty-img">
-      <h2>hello.</h2>
-      <p>my name is steven and i am a web designer and developer. i love encouraging innovative ideas and taking on new challenges.</p>
+      <h2>Hello.</h2>
+      <p>My name is Steven and I am a Web Designer and Developer. I love encouraging innovative ideas and taking on new challenges.</p>
+      <h3>Languages I Speak</h3>
+      <p>HTML, CSS, Bootstrap, Sass, JavaScript ES6, JQuery, EJS, Node.js, Express, MongoDB, Mongoose, building RESTful APIs, React.js, React-Redux, Firebase, Git, Github, Adobe Illustrator, Adobe Photoshop</p>
     </div>
     <hr>
     <div class="skills">
-      <h2>my skills.</h2>
+      <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="left-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/fireSax.svg?alt=media&token=00091fa8-1b1c-48dd-be6b-e5a9fd1b41f3" alt="fire-sax">
-        <h3>love music & art</h3>
-        <p>i have been playing music since i was seven years old. saxophone and piano are my weapons of choice, and i have always loved being creative and expressive.</p>
+        <h3>Love Music & Art</h3>
+        <p>I have been playing music since I was seven years old. Saxophone and piano are my weapons of choice, and I have always loved being creative and expressive.</p>
       </div>
       <div class="skill-row">
         <img class="right-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/n64.svg?alt=media&token=9b91e882-853f-4dee-8b6a-3f912d9b1149" alt="n64" alt="n64">
-        <h3>i'm a gamer</h3>
-        <p>my older brothers got me started, and i haven't stopped since. from zelda to metroid, undertale to overwatch, portal to pikmin, i'll play 'em all.</p>
+        <h3>I'm a gamer</h3>
+        <p>My older brothers got me started, and I haven't stopped since. from Zelda to Metroid, Undertale to Overwatch, Portal to Pikmin, I'll play 'em all.</p>
       </div>
       <div class="skill-row">
         <img class="left-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/webDevIcon.svg?alt=media&token=db4df48f-3437-4bf0-b641-0c7140209855" alt="web-developer" alt="web-developer">
-        <h3>and i'm a web developer</h3>
-        <p>i was introduced to programming when i started my computer engineering degree through c++. then i started to learn java, and then eventually discovered languages that have fueled my passion in web design and development ever since. everything on this page and others created by myself were made from scratch.</p>
+        <h3>And I'm a Web Developer</h3>
+        <p>I was introduced to programming when I started my Computer Engineering degree through C++. Then I started to learn Java, and then eventually discovered languages that have fueled my passion in web design and development ever since.</p>
       </div>
       <div class="skill-row">
         <img class="right-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/graphicDesign.svg?alt=media&token=16e09adb-5405-4bad-8e08-75ef17e6e997" alt="graphic-designer" alt="graphic-designer">
-        <h3>and also a graphic designer</h3>
-        <p>i love drawing. and ever since i learned adobe illustrator, i have loved bringing those drawings to the digital world. all of the designs on this page are originals.</p>
+        <h3>And also a Graphic Designer</h3>
+        <p>I love drawing. Ever since I learned Adobe Illustrator, I have loved bringing those drawings to the digital world. All of the designs on this page are originals.</p>
       </div>
     </div>
     <hr>
-    <div class="contact-me">
-      <h2>get in touch</h2>
-      <h3>don't hesitate to contact me. i'm always available.</h3>
-      <p class="contact-message">i can be reached any day of the week, between the hours of 7 am and 10 pm. i'm looking forward to speaking with you!</p>
-      <a class="btn" href="mailto:runandjump@yahoo.com">CONTACT ME</a>
+    <div id="contact" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Don't hesitate to contact me. I'm always available.</h3>
+      <p class="contact-message">I can be reached any day of the week, between the hours of 7 am and 10 pm. I'm looking forward to speaking with you!</p>
+      <a class="btn" href="mailto:stevendvelez9@gmail.com">CONTACT ME</a>
     </div>
   </div>  
   
