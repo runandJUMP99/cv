@@ -1,5 +1,5 @@
-.background {
-    display: none;
+#portfolio {
+    position: relative;
 }
 
 #just4yourpets {
@@ -19,25 +19,10 @@
     padding: 4rem 2.5rem;
 }
 
-.main-nav,
-.main-nav__fixed__portfolio {
-    background:#001244;
-}
-
-.main-nav a,
-.main-nav__fixed__portfolio a {
-    color: white;
-}
-
-.main-nav a:hover,
-.main-nav__fixed__portfolio a:hover {
-    color: #11999e;
-}
-
 .portfolio-intro {
     background: #001244;
     color: #ccc;
-    padding: 5rem;
+    padding: 7rem 5rem 5rem;
     position: relative;
 }
 
@@ -89,7 +74,7 @@
 .website-img {
     border-radius: 50%;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 100% !important;
 }
 
 .website-img:hover {
@@ -102,41 +87,7 @@
     text-align: center;
 }
 
-.bottom-container {
-    background: #216353;
-}
-
-@media (min-width: 700px) {
-    .background {
-        display: grid;
-        grid-template-rows: 55rem 45rem 45rem;
-        height: 100vh;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: -1;
-    }
-    
-    .background__top {
-        background-image: -webkit-linear-gradient(-75deg, #001244 65%, #42dee1 20%);
-    }
-    
-    .background__middle {
-        background-image: -webkit-linear-gradient(60deg, #fce2db 50%, #42dee1 40%);
-    }
-    
-    .background__bottom {
-        background-image: -webkit-linear-gradient(-65deg, #fce2db 40%, #216353 20%);
-    }
-
-    .portfolio-intro,
-    #just4yourpets,
-    #depoppler,
-    #wickid-sense {
-        background: none;
-    }
-    
+@media (min-width: 700px) {  
     #depoppler .work-row__text {
         text-align: right;
     }

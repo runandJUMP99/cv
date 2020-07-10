@@ -1,3 +1,6 @@
+/* TAGS */
+
+
 body {
     color: #40514e;
     font-family: 'Merriweather', serif;
@@ -41,7 +44,7 @@ a:hover {
 }
 
 hr {
-    border: dotted #eaf6f6 0.4rem;
+    border: dotted #e2f1f1 0.4rem;
     border-bottom: none;
     margin: 6rem auto;
     width: 9%;
@@ -192,9 +195,13 @@ i {
     text-decoration: underline;
 }
 
+
+/* PROFILE */
+
+
 .middle-container {
     background: linear-gradient(#e4f9f5, white);
-    padding: 6rem 0;
+    padding-top: 6rem;
 }
 
 .profile img {
@@ -205,6 +212,10 @@ i {
     margin: 0 auto 3rem;
     width: 80%;
 }
+
+
+/* SKILLS */
+
 
 .skill-row {
     margin: 6rem auto 6rem;
@@ -229,6 +240,10 @@ i {
     max-width: 175px;
 }
 
+
+/* CONTACT */
+
+
 .bottom-container {
     background: #66bfbf;
     padding: 3rem 0 1rem;
@@ -237,6 +252,10 @@ i {
 .bottom-container p {
     color: #eaf6f6;
     padding: 1.2rem 0;
+}
+
+.contact-me {
+    padding-bottom: 5rem;
 }
 
 .contact-message {
@@ -269,6 +288,10 @@ i {
     background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
     background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
 }
+
+
+/* FOOTER */
+
 
 .footer-links {
     align-items: center;
