@@ -19,8 +19,8 @@
     padding: 4rem 2.5rem;
 }
 
-.main-nav ul,
-.main-nav__fixed__portfolio ul {
+.main-nav,
+.main-nav__fixed__portfolio {
     background:#001244;
 }
 
