@@ -244,23 +244,29 @@ i {
 /* CONTACT */
 
 
-.bottom-container {
-    background: #66bfbf;
-    padding: 3rem 0 1rem;
-}
-
-.bottom-container p {
-    color: #eaf6f6;
-    padding: 1.2rem 0;
-}
-
 .contact-me {
     padding-bottom: 5rem;
 }
 
+.contact-me form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.contact-me input,
+.contact-me textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
 .contact-message {
     margin: 2.2rem auto 2.5rem;
-    width: 80%;
+    width: 100%;
 }
 
 .btn {
@@ -279,7 +285,11 @@ i {
     background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
     background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
     background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
-  }
+    border: none;
+    display: block;
+    margin: 1rem auto;
+}
+
 .btn:hover {
     color: #14396A !important;
     background: #468CCF;
@@ -287,11 +297,22 @@ i {
     background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
     background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
     background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+    cursor: pointer;
 }
 
 
 /* FOOTER */
 
+
+.bottom-container {
+    background: #66bfbf;
+    padding: 3rem 0 1rem;
+}
+
+.bottom-container p {
+    color: #eaf6f6;
+    padding: 1.2rem 0;
+}
 
 .footer-links {
     align-items: center;
@@ -326,7 +347,8 @@ i {
         width: 50%;
     }
 
-    .contact-message {
+    .contact-message,
+    .contact-me form {
         width: 40%;
     }
 }

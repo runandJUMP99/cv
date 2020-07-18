@@ -1,6 +1,7 @@
 const backdrop = document.querySelector(".backdrop");
 const mainNavFixed = document.querySelector(".main-nav__fixed");
 const sidedrawer = document.querySelector(".sidedrawer");
+const sidedrawerLinks = document.querySelectorAll(".sidedrawer-link");
 const toggleButton = document.querySelectorAll(".toggle-button__container");
 let visible = false;
 
@@ -22,7 +23,17 @@ toggleButton.forEach(function(button) {
     });
 });
 
+sidedrawerLinks.forEach(function(link) {
+    link.addEventListener("click", function() {
+        removeSidedrawer();
+    });
+});
+
 backdrop.addEventListener("click", function() {
+    removeSidedrawer();
+});
+
+function removeSidedrawer() {
     backdrop.classList.remove("open");
     sidedrawer.classList.remove("open");
-});
+}
