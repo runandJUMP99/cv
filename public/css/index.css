@@ -321,6 +321,10 @@ i {
     justify-content: center;
 }
 
+
+/* MEDIA QUERIES */
+
+
 @media (min-width: 550px) {
     h1 {
         font-size: 6rem;

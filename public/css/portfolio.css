@@ -1,26 +1,24 @@
 #portfolio {
+    background: #001244;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
 #just4yourpets {
-    background: #42dee1;
     padding: 4rem 2.5rem;
 }
 
 #depoppler {
-    background: #fce2db;
     display: flex;
     flex-direction: column;
     padding: 4rem 2.5rem;
 }
 
 #wickid-sense {
-    background: #216353;
-    padding: 4rem 2.5rem;
+    padding: 4rem 2.5rem 7rem;
 }
 
 .portfolio-intro {
-    background: #001244;
     color: #ccc;
     padding: 7rem 5rem 5rem;
     position: relative;
