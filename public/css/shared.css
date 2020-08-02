@@ -288,6 +288,7 @@ i {
     border: none;
     display: block;
     margin: 1rem auto;
+    width: 7rem;
 }
 
 .btn:hover {
