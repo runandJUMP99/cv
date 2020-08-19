@@ -74,12 +74,29 @@
 }
 
 .work-row__img {
+    display: flex;
+    flex-direction: column;
     font-size: 0.7rem;
     padding: 2rem;
 }
 
-.work-row__img a {
+.work-row__github-link {
+    align-items: center;
+    display: flex;
+    color: black;
+    font-family: inherit;
+    font-size: 0.8rem;
+    justify-content: center;
     margin: 0;
+}
+
+.work-row__github-link:hover {
+    color: #11999e;
+}
+
+.work-row__github-link i {
+    margin: 0;
+    margin-left: 0.5rem;
 }
 
 .website-img {
