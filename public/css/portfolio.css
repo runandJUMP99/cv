@@ -4,18 +4,15 @@
     position: relative;
 }
 
-#just4yourpets {
-    padding: 4rem 2.5rem;
-}
-
-#depoppler {
-    display: flex;
-    flex-direction: column;
+#just4yourpets,
+#codychurch,
+#depoppler,
+#wickid-sense {
     padding: 4rem 2.5rem;
 }
 
 #wickid-sense {
-    padding: 4rem 2.5rem 7rem;
+    padding-bottom: 7rem;
 }
 
 .portfolio-intro {
@@ -133,9 +130,6 @@
         width: 60%;
     }
     
-    #depoppler .work-row__text {
-        text-align: right;
-    }
     
     .work-row {
         display: flex;
@@ -159,6 +153,10 @@
     
     .reverse {
         flex-direction: row-reverse;
+    }
+    
+    .reverse .work-row__text {
+        text-align: right;
     }
 }
 
