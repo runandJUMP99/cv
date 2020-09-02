@@ -178,13 +178,16 @@ i {
     position: relative;
 }
 
-.top-container__404 {
-    background: #414040;
-    padding-top: 4rem;
-}
-
 .top-container h2 {
     font-weight: normal;
+}
+
+.top-container__404 {
+    background: #414040;
+}
+
+.top-container__404 h1 {
+    padding-top: 2rem;
 }
 
 .top-container__mountain {
