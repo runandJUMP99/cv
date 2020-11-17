@@ -101,7 +101,7 @@ i {
 .main-nav,
 .main-nav__fixed {
     align-items: center;
-    background: #e4f9f5;
+    background: #c5eee6;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
@@ -174,12 +174,18 @@ i {
 
 
 .top-container {
-    background: #e4f9f5;
+    background: #c5eee6;
     position: relative;
 }
 
 .top-container h2 {
     font-weight: normal;
+}
+
+.top-container img {
+    max-width: 550px;
+    position: relative;
+    top: 0.25rem;
 }
 
 .top-container__404 {
@@ -188,10 +194,6 @@ i {
 
 .top-container__404 h1 {
     padding-top: 2rem;
-}
-
-.top-container__mountain {
-    z-index: -1;
 }
 
 .pro {
@@ -203,7 +205,7 @@ i {
 
 
 .middle-container {
-    background: linear-gradient(#e4f9f5, white);
+    background:  white;
     padding-top: 6rem;
 }
 
