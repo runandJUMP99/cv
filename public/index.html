@@ -1,286 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>runandJUMP</title>
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/shared.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-</head>
-<body>
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+  <body>
+    <!-- NAV -->
 
-<!-- NAV -->
-
-  <div class="backdrop"></div>
-  <nav class="sidedrawer">
-    <div class="main-nav__logo">
-      <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48" alt="Koala"></a>
-    </div>
-    <ul class="main-nav__links">
-      <li>
-        <a class="sidedrawer-link" href="#aboutme">About Me</a>
-      </li>
-      <li>
-        <a class="sidedrawer-link" href="#portfolio">Portfolio</a>
-      </li>
-      <li>
-        <a class="sidedrawer-link" href="#contact">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
-
-  <nav class="main-nav__fixed">
-    <div class="main-nav__logo">
-      <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48" alt="Koala"></a>
-    </div>
-    <div class="toggle-button__container">
-      <button class="toggle-button">
-          <span class="toggle-button__bar"></span>
-          <span class="toggle-button__bar"></span>
-          <span class="toggle-button__bar"></span>
-      </button>
-    </div>
-    <ul class="main-nav__links">
-      <li>
-        <a href="#aboutme">About Me</a>
-      </li>
-      <li>
-        <a href="#portfolio">Portfolio</a>
-      </li>
-      <li>
-        <a href="#contact">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
-
-  <nav class="main-nav">
-    <div class="main-nav__logo">
-      <a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48" alt="Koala"></a>
-    </div>
-    <div class="toggle-button__container">
-      <button class="toggle-button">
-          <span class="toggle-button__bar"></span>
-          <span class="toggle-button__bar"></span>
-          <span class="toggle-button__bar"></span>
-      </button>
-    </div>
-    <ul class="main-nav__links">
-      <li>
-        <a href="#aboutme">About Me</a>
-      </li>
-      <li>
-        <a href="#portfolio">Portfolio</a>
-      </li>
-      <li>
-        <a href="#contact">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
-
-<!-- PROFILE -->
-
-  <div class="top-container">
-      <h1>i'm steven</h1>
-      <h2>a <span class="pro">pro</span>grammer</h2> 
-      <img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/SleepyMountains.svg?alt=media&token=383f020c-3a1c-4799-b413-3547856de0df" alt="sleepy-mountains">
-  </div>
-  
-  <div id="aboutme" class="middle-container">
-    <div class="profile">
-      <img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48" alt="koality-img">
-      <h2>Hello.</h2>
-      <p>My name is Steven and I am a Web Designer and Developer. I love encouraging innovative ideas and taking on new challenges.</p>
-      <h3>Languages I Speak</h3>
-      <p>HTML, CSS, Bootstrap, Sass, JavaScript, JQuery, EJS, Node.js, Express, MongoDB, Mongoose, Building RESTful APIs, React.js, React-Redux, React Native, Firebase, Git, Github, SEO, Digital Marketing, Adobe Illustrator, Adobe Photoshop</p>
-    </div>
-    <hr>
-
-<!-- SKILLS -->
-
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="left-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/fireSax.svg?alt=media&token=00091fa8-1b1c-48dd-be6b-e5a9fd1b41f3" alt="fire-sax">
-        <h3>Love Music & Art</h3>
-        <p>I have been playing music since I was seven years old. Saxophone and piano are my weapons of choice, and I have always loved being creative and expressive.</p>
+    <div class="backdrop"></div>
+    <nav class="sidedrawer">
+      <div class="main-nav__logo">
+        <a href="/"
+          ><img
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48"
+            alt="Koala"
+        /></a>
       </div>
-      <div class="skill-row">
-        <img class="right-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/n64.svg?alt=media&token=9b91e882-853f-4dee-8b6a-3f912d9b1149" alt="n64" alt="n64">
-        <h3>I'm a gamer</h3>
-        <p>I started at a young age, and I haven't stopped since. From Zelda to Metroid, Undertale to Overwatch, Portal to Pikmin, I'll play 'em all.</p>
+      <ul class="main-nav__links">
+        <li>
+          <a class="sidedrawer-link" href="#aboutme">About Me</a>
+        </li>
+        <li>
+          <a class="sidedrawer-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="sidedrawer-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="main-nav__fixed">
+      <div class="main-nav__logo">
+        <a href="/"
+          ><img
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48"
+            alt="Koala"
+        /></a>
       </div>
-      <div class="skill-row">
-        <img class="left-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/webDevIcon.svg?alt=media&token=db4df48f-3437-4bf0-b641-0c7140209855" alt="web-developer" alt="web-developer">
-        <h3>And I'm a Web Developer</h3>
-        <p>I was introduced to programming when I started my Computer Engineering degree through C++. Then I started to learn Java, and then eventually discovered languages that have fueled my passion in web design and development ever since.</p>
+      <div class="toggle-button__container">
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
       </div>
-      <div class="skill-row">
-        <img class="right-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/graphicDesign.svg?alt=media&token=16e09adb-5405-4bad-8e08-75ef17e6e997" alt="graphic-designer" alt="graphic-designer">
-        <h3>And also a Graphic Designer</h3>
-        <p>I love drawing. Ever since I learned Adobe Illustrator, I have loved bringing those drawings to the digital world. All of the designs on this page are originals.</p>
+      <ul class="main-nav__links">
+        <li>
+          <a href="#aboutme">About Me</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="main-nav">
+      <div class="main-nav__logo">
+        <a href="/"
+          ><img
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48"
+            alt="Koala"
+        /></a>
       </div>
+      <div class="toggle-button__container">
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+      </div>
+      <ul class="main-nav__links">
+        <li>
+          <a href="#aboutme">About Me</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- PROFILE -->
+
+    <div class="top-container">
+      <h1>i'm steven.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/SleepyMountains.svg?alt=media&token=383f020c-3a1c-4799-b413-3547856de0df"
+        alt="sleepy-mountains"
+      />
     </div>
-  </div>  
-  <hr>
 
-<!-- PORTFOLIO -->
+    <div id="aboutme" class="middle-container">
+      <div class="profile">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/NEWkoala.svg?alt=media&token=c3fedcbc-57d1-42f9-961a-356c05468e48"
+          alt="koality-img"
+        />
+        <h2>Hello.</h2>
+        <p>
+          My name is Steven and I am a Web Developer. I love encouraging
+          innovative ideas and taking on new challenges.
+        </p>
+        <h3>Languages I Speak (Professional Skills).</h3>
+        <p>
+          HTML, CSS, Tailwind, JavaScript, Node, Express, React, Remix, AWS,
+          Electron, React Native, MongoDB, Mongoose, Building RESTful APIs,
+          React-Redux, Firebase, Git, Github, Zoho, Zapier, Unity, C#, SEO,
+          Digital Marketing, Adobe Illustrator
+        </p>
+      </div>
+      <hr />
 
-  <section id="portfolio">  
-    <div class="portfolio-intro">
-      <div class="portfolio-intro__header">
-        <div class="portfolio-intro__header__text">
-          <h1>here's what i've been working on...</h1>
-          <p>These are all projects that I have been creating. Whether they were for a client or for personal development, they have all been enjoyable to work on.</p>
+      <!-- SKILLS -->
+
+      <div class="skills">
+        <h2>About me.</h2>
+        <div class="skill-row">
+          <img
+            class="left-img"
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/webDevIcon.svg?alt=media&token=db4df48f-3437-4bf0-b641-0c7140209855"
+            alt="web-developer"
+            alt="web-developer"
+          />
+          <h3>I'm a Web Developer.</h3>
+          <p>
+            I am a self-taught Web Developer with over 2 years of professional
+            experience. I found my passion for web development later in life,
+            and am always eager to further my skills and take on the next
+            challenge. Building clean, easy-to-use apps is what I strive for in
+            every project I take on.
+          </p>
         </div>
-        <img src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/KoalaSax.svg?alt=media&token=67959bf7-d4c1-49b7-95f5-f501989256f0" alt="Koala Sax">
-      </div>
-      <div class="portfolio-intro__toolbar">
-        <a href="#random-draft-league">Random Draft League</a>
-        <a href="#cthruinspections">C Thru Inspections</a>
-        <a href="#oneenergyglobal">One Energy Global</a>
-        <a href="#depoppler">dePoppler</a>
-        <a href="#tetris">Tetris Clone</a>
-        <a href="#last">Last</a>
+        <div class="skill-row">
+          <img
+            class="right-img"
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/graphicDesign.svg?alt=media&token=16e09adb-5405-4bad-8e08-75ef17e6e997"
+            alt="graphic-designer"
+            alt="graphic-designer"
+          />
+          <h3>And I also make Mobile and Desktop apps.</h3>
+          <p>
+            In my professional career, I have also been able to make a desktop
+            app using Electron, and a mobile app using React Native. These
+            projects were both challenging and enriching, and I have already
+            begun utilizing these new skills in other projects.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="left-img"
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/fireSax.svg?alt=media&token=00091fa8-1b1c-48dd-be6b-e5a9fd1b41f3"
+            alt="fire-sax"
+          />
+          <h3>I love music & art.</h3>
+          <p>
+            I have been playing music since I was seven years old. Saxophone and
+            piano are my weapons of choice, and I also love to draw. Let's get
+            creative!
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="right-img"
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/n64.svg?alt=media&token=9b91e882-853f-4dee-8b6a-3f912d9b1149"
+            alt="n64"
+            alt="n64"
+          />
+          <h3>I'm a gamer (who also makes games).</h3>
+          <p>
+            I started at a young age, and I haven't stopped since. From Zelda to
+            Metroid, Undertale to Overwatch, Portal to Pikmin, I'll play 'em
+            all, and now I also make them!
+          </p>
+        </div>
       </div>
     </div>
-    <div class="works">
-      <div id="random-draft-league" class="portfolio-section">
-        <div class="work-row">
+    <hr />
+
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio">
+      <div class="portfolio-intro">
+        <div class="portfolio-intro__header">
+          <div class="portfolio-intro__header__text">
+            <h1>here's what i've been working on...</h1>
+            <p>These are all projects that I have worked on personally.</p>
+          </div>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/KoalaSax.svg?alt=media&token=67959bf7-d4c1-49b7-95f5-f501989256f0"
+            alt="Koala Sax"
+          />
+        </div>
+        <div class="portfolio-intro__toolbar">
+          <a href="#jason-drees-coaching-platform"
+            >Jason Drees Coaching Platform</a
+          >
+          <a href="#photo-mules-desktop-app">Photo Mules Desktop App</a>
+          <a href="#contacts2crm">Contacts2CRM</a>
+          <a href="#c-thru-inspections">C Thru Inspections</a>
+          <a href="#random-draft-league">Random Draft League</a>
+          <a href="#cuppys">Cuppy's</a>
+        </div>
+      </div>
+      <div class="works">
+        <div id="jason-drees-coaching-platform" class="portfolio-section">
+          <div class="work-row">
             <div class="work-row__text">
-                <h3>Random Draft League</h3>
-                <p>A project for a streamer / content creator! Users can create accounts and contribue to each week's draft. The site has an admin section where the owner can edit and update the draft by selecting winners, sending notifications, and more!</p>
+              <h3>Jason Drees Coaching Platform</h3>
+              <p>
+                I assisted in the design and development of this web platform
+                for a Coaching Company using AWS, Remix, and Zoho. The business
+                owner is able to manage their many coaches, clients,
+                engagements, invoices, etc. through Zoho, and each coach/client
+                can manage their appointments, payments, onboarding, coaching
+                forms, communication, etc. through the platform.
+              </p>
             </div>
             <div class="work-row__img">
-                <a target="_blank" rel="noopener noreferrer" href="http://randomdraftleague.com">
-                    <img class="website-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/RDL.png?alt=media&token=c7913a03-d59b-4840-b2a5-89b984bdee99" alt="Random Draft League">
-                </a>
-                <a class="work-row__github-link" href="https://github.com/runandJUMP99/random-draft-league" target="_blank" rel="noopener noreferrer" >
-                  <p>Made with React.js, React-Redux, and Firebase</p><i class="fa fa-github"></i>
-                </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://portal.jasondreescoaching.com/"
+              >
+                <img
+                  class="website-img website-img-clickable"
+                  src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/JDC.png?alt=media&token=d6592edc-fb61-47b0-bf75-f394f677a15a"
+                  alt="Jason Drees Coaching Platform"
+                />
+              </a>
+              <p class="work-row__github-link">
+                <p>Made with AWS, React, and Remix</p>
+                <!-- <i class="fa fa-github"></i> -->
+              </p>
             </div>
-        </div>                
-      </div>
-      <div id="cthruinspections" class="portfolio-section">
-        <div class="work-row reverse">
-          <div class="work-row__text">
+          </div>
+        </div>
+        <div id="photo-mules-desktop-app" class="portfolio-section">
+          <div class="work-row reverse">
+            <div class="work-row__text">
+              <h3>Photo Mules Desktop App</h3>
+              <p>
+                This desktop app was made using Electron and React for a photography company that took individual and group photos 
+                for large events. The owner was able to create users, assign admins, and all users were able to import, edit, and 
+                print photos. The app was synced locally between all other logged in users, with AWS when a connection 
+                was present, and with an external POS to stay current with new incoming orders.
+              </p>
+            </div>
+            <div class="work-row__img">
+              <!-- <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href=""
+              > -->
+              <img
+                class="website-img"
+                src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/PhotoMules.png?alt=media&token=ba67768c-dacc-4500-8576-45bd239621b2"
+                alt="Photo Mules Desktop App"
+              />
+              <!-- </a> -->
+              <p class="work-row__github-link">
+                <p>Made with Electron, React, and AWS</p>
+                <!-- <i class="fa fa-github"></i> -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="contacts2crm" class="portfolio-section">
+          <div class="work-row">
+            <div class="work-row__text">
+              <h3>Contacts 2 CRM</h3>
+              <p>
+                A small, easy to use mobile app made with React Native and AWS that allows users to connect to a CRM 
+                (Zoho, Salesforce, or Pipedrive) to quickly upload a contact. This was designed for users at large 
+                events that are trying to network and rapidly take someone's contact information. The user could scan a 
+                QR code, select from their local contacts, or manually enter a contact to upload with the ability to 
+                include default fields
+              </p>
+            </div>
+            <div class="work-row__img">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://play.google.com/store/apps/details?id=com.contacts2crm"
+              >
+                <img
+                  class="website-img website-img-clickable"
+                  src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/Contacts2CRM.png?alt=media&token=92805714-ce14-48cc-8f79-323dd236d5d4"
+                  alt="Contacts 2 CRM"
+                />
+              </a>
+              <p class="work-row__github-link">
+                <p>Made with React Native and AWS</p>
+                <!-- <i class="fa fa-github"></i> -->
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="c-thru-inspections" class="portfolio-section">
+          <div class="work-row reverse">
+            <div class="work-row__text">
               <h3>C Thru Inspections</h3>
-              <p>A website build for a Home Inspection company. Users can easily view the services offered, associated fees, and easily contact the company or schedule an inspection on desktop, tablet, or smart phone devices. I also designed the logo and worked on the SEO for this client.</p>
-          </div>
-          <div class="work-row__img">
-              <a target="_blank" rel="noopener noreferrer" href="http://cthruinspections.com">
-                  <img class="website-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/CThruInspections.png?alt=media&token=c6aca7af-934b-4495-b7fd-e373bcd09534" alt="C Thru Inspections">
-              </a>
-              <a class="work-row__github-link" href="https://github.com/runandJUMP99/c-thru-inspections" target="_blank" rel="noopener noreferrer" >
-                <p>Made with React.js</p><i class="fa fa-github"></i>
-              </a>
-          </div>
-        </div>                
-      </div>
-      <div id="oneenergyglobal" class="portfolio-section">
-        <div class="work-row">
-            <div class="work-row__text">
-                <h3>One Energy Global</h3>
-                <p>This was created for a non-profit organization looking to better the lives of those less fortunate accross the globe. We wanted to keep the design professional, yet inviting for all ages!</p>
+              <p>
+                A website build for a Home Inspection company. Users can easily
+                view the services offered, associated fees, and easily contact
+                the company or schedule an inspection on desktop, tablet, or
+                smart phone devices. I also designed the logo and worked on the
+                SEO for this client.
+              </p>
             </div>
             <div class="work-row__img">
-                <a target="_blank" rel="noopener noreferrer" href="https://oneenergyglobal.org/">
-                    <img class="website-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/OEG.png?alt=media&token=e0cfab4a-d60a-4ef1-9d41-cef72023bb06" alt="One Energy global">
-                </a>
-                <a class="work-row__github-link" href="#oneenergyglobal">
-                  <p>Made with WordPress</p><i class="fa fa-wordpress"></i>
-                </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://cthruinspections.com"
+              >
+                <img
+                  class="website-img website-img-clickable"
+                  src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/CThruInspections.png?alt=media&token=c6aca7af-934b-4495-b7fd-e373bcd09534"
+                  alt="C Thru Inspections"
+                />
+              </a>
+              <a
+                class="work-row__github-link"
+                href="https://github.com/runandJUMP99/c-thru-inspections"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>Made with React and Firebase</p>
+                <i class="fa fa-github"></i>
+              </a>
             </div>
-        </div>                
-      </div>
-      <div id="depoppler" class="portfolio-section">
-        <div class="work-row reverse">
-          <div class="work-row__text">
-              <h3>dePoppler</h3>
-              <p>This was my first project I attempted. My partner works out of a great app called depop, and I wanted to create a better way for her to organize her products. The site is not yet live, as I still wish to add more elements to the project.</p>
           </div>
-          <div class="work-row__img">
-              <a target="_blank" rel="noopener noreferrer" href="https://secret-sea-49678.herokuapp.com/">
-                  <img class="website-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/dePoppler.png?alt=media&token=86387842-189e-4122-b12a-7637d6264c88" alt="dePoppler">
-              </a>
-              <a class="work-row__github-link" href="https://github.com/runandJUMP99/dePoppler" target="_blank" rel="noopener noreferrer" >
-                <p>Made with EJS, Node.js w/ Express, and MongoDB</p><i class="fa fa-github"></i>
-              </a>
-          </div>
-        </div>                
-      </div>
-      <div id="tetris" class="portfolio-section">
-        <div class="work-row">
+        </div>
+        <div id="random-draft-league" class="portfolio-section">
+          <div class="work-row">
             <div class="work-row__text">
-                <h3>Tetris Clone</h3>
-                <p>Everyone knows what this is! It's Tetris! Use the arrow keys to move, up arrow to rotate, and spacebar to snap the piece down. It's classic Tetris, so no holding pieces!</p>
+              <h3>Random Draft League</h3>
+              <p>
+                A project for a streamer / content creator! Users can create
+                accounts and contribue to each week's draft. The site has an
+                admin section where the owner can edit and update the draft by
+                selecting winners, sending notifications, and more!
+              </p>
             </div>
             <div class="work-row__img">
-                <a target="_blank" rel="noopener noreferrer" href="https://laughing-hamilton-5d83ca.netlify.app/">
-                    <img class="website-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/Tetris.png?alt=media&token=88582168-1607-46df-9c59-b36834867aab" alt="Tetris">
-                </a>
-                <a class="work-row__github-link" href="https://github.com/runandJUMP99/mysecondgame" target="_blank" rel="noopener noreferrer" >
-                  <p>Made with HTML, CSS, and JavaScript</p><i class="fa fa-github"></i>
-                </a>
+              <!-- <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://randomdraftleague.com"
+              > -->
+                <img
+                  class="website-img"
+                  src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/RDL.png?alt=media&token=c7913a03-d59b-4840-b2a5-89b984bdee99"
+                  alt="Random Draft League"
+                />
+              <!-- </a> -->
+              <a
+                class="work-row__github-link"
+                href="https://github.com/runandJUMP99/random-draft-league"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>Made with React, React-Redux, and Firebase</p>
+                <i class="fa fa-github"></i>
+              </a>
             </div>
-        </div>                
-      </div>
-      <div id="last" class="portfolio-section">
-        <div class="work-row reverse">
+          </div>
+        </div>
+        <div id="cuppys" class="portfolio-section">
+          <div class="work-row reverse">
             <div class="work-row__text">
-                <h3>Last</h3>
-                <p>A simple game with three controls: move up, move down, and jump. The object of the game is to simply last. Last as long as you can. How long can you last? (Not yet mobile friendly)</p>
+              <h3>Cuppy's</h3>
+              <p>
+                A game where you work the closing shift for a new ice cream parlor, Cuppy’s, that has been having 
+                strange occurrences recently. Quickly assemble every customer’s favorite ice cream flavors 
+                and toppings before these… strange occurrences… get even worse!
+              </p>
             </div>
             <div class="work-row__img">
-                <a target="_blank" rel="noopener noreferrer" href="http://boring-blackwell-5d9d55.netlify.app/">
-                    <img class="website-img" src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/Last.png?alt=media&token=378bde09-e800-4598-aa2d-6416357180a7" alt="Last">
-                </a>
-                <a class="work-row__github-link" href="https://github.com/runandJUMP99/mythirdgame" target="_blank" rel="noopener noreferrer" >
-                  <p>Made with HTML, CSS, and JavaScript</p><i class="fa fa-github"></i>
-                </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://store.steampowered.com/app/2195090/Cuppys/"
+              >
+                <img
+                  class="website-img website-img-clickable"
+                  src="https://firebasestorage.googleapis.com/v0/b/mycv-bdfa2.appspot.com/o/Cuppys.png?alt=media&token=f8cea0a9-8edf-42f3-b04c-489ed8398649"
+                  alt="Cuppy's"
+                />
+              </a>
+              <a
+                class="work-row__github-link"
+                href="https://github.com/runandJUMP99/cuppys"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>Made with Unity</p>
+                <i class="fa fa-github"></i>
+              </a>
             </div>
-        </div>                
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <hr>
+    </section>
+    <hr />
 
-<!-- CONTACT -->
+    <!-- CONTACT -->
 
-  <div id="contact" class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>Don't hesitate to contact me. I'm always available.</h3>
-    <p class="contact-message">I can be reached any day of the week, between the hours of 7 am and 10 pm. I'm looking forward to speaking with you!</p>
-    <a class="btn" href="mailto:stevendvelez9@gmail.com">CONTACT ME</a>
+    <div id="contact" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Don't hesitate to contact me. I'm always available.</h3>
+      <p class="contact-message">
+        I can be reached any day of the week, between the hours of 7 am and 10
+        pm. I'm looking forward to speaking with you!
+      </p>
+      <a class="btn" href="mailto:stevendvelez9@gmail.com">CONTACT ME</a>
 
+      <!-- CONTACT FORM TEMPLATE -->
 
-    <!-- CONTACT FORM TEMPLATE -->
-
-    <!-- <form action="mailto:stevendvelez9@gmail.com">
+      <!-- <form action="mailto:stevendvelez9@gmail.com">
       <input type="text" placeholder="Name">
       <input type="email" placeholder="Email">
       <textarea name="message" id="message" cols="30" rows="10"></textarea>
       <button class="btn">CONTACT ME</button>
     </form> -->
+    </div>
 
+    <!-- FOOTER -->
 
-  </div>
-  
-<!-- FOOTER -->
-  
-  <div class="bottom-container">
-    <div class="footer-links">
-      <a class="footer-link" href="#portfolio"><i class="fa fa-book"></i>portfolio</a>
-      <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/runandJUMP"><i class="fa fa-dribbble"></i>dribbble</a>
-      <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://github.com/runandjump99"><i class="fa fa-github"></i>github</a>
-      <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/steven-velez-32210b1b1"><i class="fa fa-linkedin"></i>linkedin</a>
-      <a class="footer-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/runandJUMP99"><i class="fa fa-twitter"></i>twitter</a>
-  </div>
-    <p>© <script>document.write(new Date().getFullYear())</script> runandJUMP</p>
-  </div>
-  
-  <script src="index.js"></script>
-</body>
+    <div class="bottom-container">
+      <div class="footer-links">
+        <a class="footer-link" href="#portfolio"
+          ><i class="fa fa-book"></i>portfolio</a
+        >
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://dribbble.com/runandJUMP"
+          ><i class="fa fa-dribbble"></i>dribbble</a
+        >
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/runandjump99"
+          ><i class="fa fa-github"></i>github</a
+        >
+        <a
+          class="footer-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/steven-velez-32210b1b1"
+          ><i class="fa fa-linkedin"></i>linkedin</a
+        >
+      </div>
+      <p>
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        runandJUMP
+      </p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
